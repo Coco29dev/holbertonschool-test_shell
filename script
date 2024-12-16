@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "la valeur maximale du PID est : $(cat /proc/sys/kernel/pid_max)"
