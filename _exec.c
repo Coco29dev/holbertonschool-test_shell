@@ -1,20 +1,24 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
-/**
- * main - execve example
- *
- * Return: Always 0.
- */
+extern char **environ;
+
 int main(void)
 {
-    char *argv[] = {"/bin/ls", "-l", "/usr/", NULL};
+    // Ajouter une variable d'environnement temporaire
+    setenv("MY_VAR", "HelloWorld", 1);
+
+    char *argv[] = {"/bin/ls", "-l", "/usr/", NULL};  // Commande à exécuter
 
     printf("Before execve\n");
-    if (execve(argv[0], argv, NULL) == -1)
+
+    // Appel à execve avec l'environnement actuel
+    if (execve(argv[0], argv, environ) == -1)
     {
         perror("Error:");
     }
-    printf("After execve\n");
+
+    printf("After execve\n");  // Ce code ne sera jamais exécuté si execve réussit
     return (0);
 }
