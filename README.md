@@ -131,4 +131,5 @@ The project's manual page, formatted for compatibility with the UNIX man command
 ## Contributors
 
 Corentin Robles
+
 Damien Boulet
