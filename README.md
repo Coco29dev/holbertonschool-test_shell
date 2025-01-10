@@ -118,6 +118,8 @@ The project's manual page, formatted for compatibility with the UNIX man command
 
 ## Flowchart
 
+<a href="https://ibb.co/S6jN3V1"><img src="https://i.ibb.co/TwfcgPn/Capture-d-e-cran-2025-01-10-a-12-18-44.png" alt="Capture-d-e-cran-2025-01-10-a-12-18-44" border="0"></a>
+
 ## Test
 
 ### Interactive mode
