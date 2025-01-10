@@ -116,6 +116,8 @@ Provides an overview of the shell program and usage instructions.
 
 The project's manual page, formatted for compatibility with the UNIX man command, provides detailed documentation on how to use the shell, including available commands and options.
 
+## Flowchart
+
 ## Test
 
 ### Interactive mode
@@ -124,5 +126,9 @@ The project's manual page, formatted for compatibility with the UNIX man command
 
 ### Non-interactive mode
 
+<a href="https://ibb.co/bd6gLdx"><img src="https://i.ibb.co/3hTyWhw/Capture-d-e-cran-2025-01-10-a-09-49-59.png" alt="Capture-d-e-cran-2025-01-10-a-09-49-59" border="0"></a>
 
+## Contributors
 
+Corentin Robles
+Damien Boulet
