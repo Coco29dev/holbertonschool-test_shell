@@ -63,13 +63,13 @@ It supports several core features, including executing basic commands, managing 
 
 ### Tasks
 
-0 - README.md, man, authors.
-1 - Betty style code.
-2 - Simple shell 0.1 - write a UNIX command line interpreter.
-3 - Simple shell 0.2 - handles command lines with arguments.
-4 - Simple shell 0.3 - handle path, fork must not be called if the command doesn't exist.
-5 - Simple shell 0.4 - implement exit built-in.
-6 - Simple shell 1.0 - implement the env built-in.
+1. - README.md, man, authors.
+2. - Betty style code.
+3. - Simple shell 0.1 - write a UNIX command line interpreter.
+4. - Simple shell 0.2 - handles command lines with arguments.
+5. - Simple shell 0.3 - handle path, fork must not be called if the command doesn't exist.
+6. - Simple shell 0.4 - implement exit built-in.
+7. - Simple shell 1.0 - implement the env built-in.
 
 
 
