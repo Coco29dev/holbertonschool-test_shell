@@ -75,7 +75,7 @@ It supports several core features, including executing basic commands, managing 
 
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-
+```bash
 
 ## Files
 
