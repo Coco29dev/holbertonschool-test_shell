@@ -80,31 +80,31 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 ## Files
 
-* shell.h 
+* `shell.h` 
 
 Header file defining function prototypes, constants, and external variables for the shell program, including input handling, command execution, and built-in commands.
 
-* shell.c
+* `shell.c`
 
 Implements the main shell loop, handling user input, tokenization, command execution, and built-in command handling in an interactive shell.
 
-* exec.c
+* `exec.c`
 
 Implements the execmd function to fork a child process, execute a command using execve, and handle errors if the command is not found.
 
-* input.c
+* `input.c`
 
 Implements functions to read user input and tokenize the command line into an array of arguments, handling memory allocation and token parsing.
 
-* path.c
+* `path.c`
 
 Implements the find_command_in_path function to search for an executable command in the directories listed in the PATH environment variable.
 
-* builtins.c
+* `builtins.c`
 
-Implements built-in shell commands such as "exit" to terminate the program and "env" to print all environment variables, along with handling of these commands.
+Implements built-in shell commands such as `exit` to terminate the program and `env` to print all environment variables, along with handling of these commands.
 
-* AUTHORS
+* `AUTHORS`
 
 Lists the contributors and authors of the project.
 
@@ -112,7 +112,7 @@ Lists the contributors and authors of the project.
 
 Provides an overview of the shell program and usage instructions.
 
-* man_1_simple_shell
+* `man_1_simple_shell`
 
 The project's manual page, formatted for compatibility with the UNIX man command, provides detailed documentation on how to use the shell, including available commands and options.
 
