@@ -74,8 +74,8 @@ It supports several core features, including executing basic commands, managing 
 ### Compilation
 
 ```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-```bash
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
+
 
 ## Files
 
