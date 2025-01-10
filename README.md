@@ -71,6 +71,10 @@ It supports several core features, including executing basic commands, managing 
 6. - Simple shell 0.4 - implement exit built-in.
 7. - Simple shell 1.0 - implement the env built-in.
 
+### Compilation
+
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 
 ## Files
