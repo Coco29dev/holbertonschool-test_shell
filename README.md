@@ -108,7 +108,7 @@ Implements built-in shell commands such as "exit" to terminate the program and "
 
 Lists the contributors and authors of the project.
 
-* 'README.md'
+* `README.md`
 
 Provides an overview of the shell program and usage instructions.
 
